@@ -493,7 +493,7 @@
     <div class="counter-wrap">
       <div class="counter-label">Your Net Worth</div>
       <div class="counter-val" id="counter">$0</div>
-      <div class="counter-sub">Keep working. Every peso counts.</div>
+      <div class="counter-sub">Keep working. Every dollar counts.</div>
     </div>
   </div>
 
@@ -554,8 +554,8 @@
     </p>
     <p class="section-body" style="margin-top:16px;">
       It works for people who want to grind for an hour straight and for people who check
-      in twice a day to collect earnings. No pay-to-win. Progress comes from good decisions,
-      not a credit card.
+      in twice a day to collect earnings. Free to play, with progress driven by the
+      decisions you make in the game.
     </p>
 
     <div class="about-grid">
@@ -720,7 +720,7 @@
   const counterEl = document.getElementById('counter');
 
   function fmt(n) {
-    return '$' + Math.floor(n).toLocaleString('en-PH');
+    return '$' + Math.floor(n).toLocaleString('en-US');
   }
 
   function tick() {
